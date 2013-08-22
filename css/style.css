@@ -38,6 +38,7 @@ header h1 {
 	padding-bottom: 0px;
 	font-family: 'The Girl Next Door', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
 	color: rgb(56,132,0);
+	text-shadow: 2px 2px 5px;
 }
 
 header .logo {

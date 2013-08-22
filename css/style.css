@@ -1,0 +1,176 @@
+body {	
+	margin: auto;
+	}
+
+/* *banner */
+.banner {
+	background: url(../img/banner1.jpg) no-repeat;
+	border-radius: 15px;
+	width: 960px;
+	height: 413px;
+}
+
+.banner p {
+	color: #fff;
+	font-family: 'The Girl Next Door', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+	font-size: 32px;
+}
+
+#oldgame {
+	padding-top: 25px;
+	padding-left: 395px;
+}
+
+#newfeelings {
+	padding-top: 265px;
+	padding-left: 395px;
+}
+/* *header */
+
+header {
+	overflow: hidden;
+	height: 50px;
+}
+
+header h1 {
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	font-family: 'The Girl Next Door', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+	color: rgb(56,132,0);
+}
+
+header .logo {
+	float: left;
+
+}
+/* *nav */
+
+nav li {
+	display: inline;
+	float: right;
+	margin-right: 10px;
+	color: #7e7e7e;
+	font-family: 'The Girl Next Door', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+	font-size: 16px;
+}
+
+
+nav li a {
+	color: #6bb130;
+	text-decoration: none;
+}
+
+.home {
+	color: rgb(56,132,0);
+}
+nav li a:hover {
+	color: rgb(56,132,0);
+	text-decoration: underline;
+}
+
+/* *download */
+
+.download {
+	background-color: #ADDFAD;
+	border-radius: 4px;
+	font-family: 'PT Sans', 'PTSansWeb', Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	padding: 10px 60px;
+	margin-bottom: 0px;
+	width: 150px;
+	position: relative;
+	left: 350px;
+	bottom: 20px;
+}
+
+.download a{	
+	position: relative;
+	left: 10px;
+	bottom: 0px;
+	color: #40526a;
+	text-decoration: none;
+}
+
+.download:hover {
+	background-color: #9DCF9D;
+}
+
+/* *main */
+
+.main {
+	font-family: 'PT Sans', 'PTSansWeb', Verdana, Geneva, sans-serif;
+	margin-bottom: 20px;
+}
+
+.main h2 {
+	margin: auto;
+	text-align: center;
+}
+
+.main p {
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+.grid_6 {
+	border-radius: 10px;
+} 
+
+.what_is_it{
+	background-color: rgb(190, 243, 231);
+	margin-bottom: 20px;
+} 
+
+.whats_new {
+	background-color: rgb(254, 240, 211);
+	margin-bottom: 20px;
+}
+
+.button_more {
+	background-color: #999;
+	width:70px;
+	position: relative;
+	padding-right: 10px;
+	left: 10px;
+	border-radius: 5px;
+}
+
+.button_more a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.button_more:hover {
+	background-color: #777;
+}
+
+/* *footer */
+footer {
+	background-color: #eee;
+	padding-top: 10px;
+	width: 960px;
+	height: 70px;
+	margin: auto;
+	border-radius: 5px;
+	font-family: 'PT Sans', 'PTSansWeb', Verdana, Geneva, sans-serif;
+}
+
+footer p {
+	text-align: right;
+	padding-top: 40px;
+
+}
+
+footer a {
+	text-decoration: none;
+	font-family: 'PT Sans', 'PTSansWeb', Verdana, Geneva, sans-serif;
+	font-style: italic;
+	color: rgb(142, 142, 142);
+	padding-right: 10px;
+	padding-bottom: 10%;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
